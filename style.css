@@ -108,7 +108,8 @@ a:hover {
 #sidebar {
   position: fixed;
   background-color: #384047;
-  width: 120px;
+  width: 80px;
+  height: 300px;
   left: 0;
   top: 0;
   bottom: 0;
@@ -132,6 +133,39 @@ a:hover {
   padding-left: 0px;
 }
 
-#page-content {
-  margin-left: 120px;
+#left {
+  width: 35%;
+  float:left;
+  min-height: 600px;
 }
+
+#right {
+  width: 60%;
+  float:right;
+  min-height: 600px;
+}
+
+.clear {
+  clear: both;
+}
+
+#footer {
+  position:relative;
+  padding: 10px 400px 60px 20px;
+}
+
+#share {
+  position:absolute;
+  text-align: center;
+  bottom: 10px;
+  right: 25px;
+}
+
+#wrapper {
+  width: 1000px;
+  padding: 20px;
+  margin-left: 120px;
+  background-color: rgba(175, 175, 175, 0.1);
+  border-radius: 2px;
+}
+
