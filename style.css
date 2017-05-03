@@ -43,7 +43,7 @@ a:hover {
 }
 
 .container {
-  width: 500px;
+  width: 90%;
   margin: 30px auto;
 }
 
@@ -103,4 +103,35 @@ a:hover {
 
 #movies td {
   padding: 20px;
+}
+
+#sidebar {
+  position: fixed;
+  background-color: #384047;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#sidebar li {
+  margin: 50px 0px;
+  font-size: 25px;
+}
+
+#sidebar a {
+  color: #7d7d7d;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#page-content {
+  margin-left: 120px;
 }
